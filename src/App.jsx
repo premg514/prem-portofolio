@@ -288,20 +288,20 @@ function App() {
                 providing a consistent user experience across devices.
               </li>
             </ul>
-            {/* <div className="contactLinks">
+            <div className="contactLinks">
               <a
-                href="https://github.com/premg514/AI-Analyzer"
+                href="https://github.com/premg514/subs-generator"
                 aria-label="GitHub repository"
               >
                 <FaGithub fontSize={22} />
               </a>
               <a
-                href="https://ai-assistance-theta.vercel.app/"
+                href="https://prems-subs-generator.vercel.app/"
                 aria-label="Live demo"
               >
                 <FaLink fontSize={20} />
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
 
