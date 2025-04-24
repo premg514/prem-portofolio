@@ -260,6 +260,49 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="project">
+          <img
+            className="projectPic"
+            src={project4}
+            alt="AI-Assistance Project"
+          />
+          <div className="projectContent">
+            <h2>Video Subtitles Generator</h2>
+            <p>
+              <strong>Technologies:</strong> MERN Stack, Google Gemini API
+            </p>
+            <ul>
+              <li>
+                Developed an AI-powered web application using the MERN stack,
+                integrating Google's Gemini AI API to generate intelligent
+                responses for generate a Subtitles for a video.
+              </li>
+              <li>
+                Designed and optimized RESTful APIs for seamless data
+                communication between frontend and backend, improving system
+                efficiency.
+              </li>
+              <li>
+                Created a responsive UI that adapts to different screen sizes,
+                providing a consistent user experience across devices.
+              </li>
+            </ul>
+            {/* <div className="contactLinks">
+              <a
+                href="https://github.com/premg514/AI-Analyzer"
+                aria-label="GitHub repository"
+              >
+                <FaGithub fontSize={22} />
+              </a>
+              <a
+                href="https://ai-assistance-theta.vercel.app/"
+                aria-label="Live demo"
+              >
+                <FaLink fontSize={20} />
+              </a>
+            </div> */}
+          </div>
+        </div>
 
         <div className="project">
           <img src={project2} className="projectPic" alt="Nxt Watch Project" />
@@ -289,7 +332,7 @@ function App() {
               </li>
             </ul>
             <div className="contactLinks">
-            (username: rahul, password: rahul@2021) 
+              (username: rahul, password: rahul@2021)
               <a href="https://nxtwotch.ccbp.tech/" aria-label="Live demo">
                 <FaLink fontSize={20} />
               </a>
